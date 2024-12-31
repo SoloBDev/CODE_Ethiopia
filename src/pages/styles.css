@@ -1,0 +1,19 @@
+.crop-container {
+   width: 100%;
+   /* Set the width of the cropped area */
+   height: 680px;
+   /* Set the height of the cropped area */
+   overflow: hidden;
+   /* Hide the overflow */
+   position: relative;
+   /* Position relative to allow absolute positioning of the image */
+}
+
+.crop-container img {
+   position: absolute;
+   /* Position the image abso
+   width: 100%;
+   /* Keep the aspect ratio */
+   height: 800px;
+   /* Set height of the image to be larger than the container for cropping */
+}

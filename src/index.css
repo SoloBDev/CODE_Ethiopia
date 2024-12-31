@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #4400ff;
+    --muted: 240 4.8% 95.9%;
+  }
+
+}
